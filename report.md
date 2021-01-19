@@ -15,14 +15,20 @@
 В качестве тестовых данных использовался код Java-приложения:
 
 public class Main {
-public static void main(String[] args) {
-double regularBonus = 0.3;
-double specialBonus = 0.6;
-double totalBonus = regularBonus + specialBonus;
-System.out.println(totalBonus);
-}
-}
 
+    public static void main(String[] args) {
+    
+        double regularBonus = 0.3;
+        
+        double specialBonus = 0.6;
+        
+        double totalBonus = regularBonus + specialBonus;
+        
+        System.out.println(totalBonus);
+        
+    }
+    
+}
 
 
 ## Тестирование проводилось в следующем окружении
